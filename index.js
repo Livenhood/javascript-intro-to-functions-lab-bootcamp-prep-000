@@ -11,9 +11,9 @@ function logWhisper(string) {
   console.log("hello")
 }
 
-function say(greeting){
+function say(lowerCase){
   console.log('I can't hear you!')
-  return `${response}!`
+  return `${lowerCase}!`
 }
 
 var uppercase = "HELLO"
