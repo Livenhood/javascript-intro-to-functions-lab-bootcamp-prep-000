@@ -11,6 +11,11 @@ function logWhisper(string) {
   console.log("hello")
 }
 
+function say(greeting, response){
+  console.log('hello')
+  return `${greeting}, ${response}!`
+}
+
 var uppercase = "HELLO"
 
 uppercase.toUpperCase() === uppercase
