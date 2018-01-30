@@ -12,7 +12,7 @@ function logWhisper(string) {
 }
 
 function say(lowerCase){
-  console.log('I can't hear you!')
+  console.log('I can\'t hear you!')
   return `${lowerCase}!`
 }
 
